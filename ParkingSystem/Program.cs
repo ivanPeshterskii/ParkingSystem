@@ -1,7 +1,11 @@
+using ParkingSystem.Repository;
+using ParkingSystem.Repository.Contracts;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSingleton<ICarRepository, CarRepository>();
 
 var app = builder.Build();
 

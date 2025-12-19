@@ -11,10 +11,14 @@
     <Folder Include="Data\" />
     <Folder Include="Data\Models\" />
     <Folder Include="Controllers\CarController\" />
+    <Folder Include="Repository\" />
+    <Folder Include="Repository\Contracts\" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="Data\Models\" />
     <None Remove="Controllers\CarController\" />
+    <None Remove="Repository\" />
+    <None Remove="Repository\Contracts\" />
   </ItemGroup>
 </Project>
